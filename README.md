@@ -4,7 +4,7 @@ A machine learning approach to modeling and predicting the time evolution of qua
 
 ##  Project Overview : 
 
-> Projects not yet complete my dumb ahh forgot |ψ(x,t)|² 's existence ;)
+> Projects not yet complete  ;)
 
 This project bridges quantum physics with machine learning by developing a supervised learning pipeline that predicts the time-dependent spreading factor σ(t) of quantum wavepackets. Instead of explicitly solving the time-dependent Schrödinger equation, we leverage deep learning to learn quantum dynamical properties from data and reconstruct the wavefunction numerically.
 
