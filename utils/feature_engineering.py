@@ -6,8 +6,8 @@ def feature_engineer(df):
                       'mass',
                       'time',
                       'sig_0',
-                      'sig_0_2',
-                      'sig_t' }
+                      'sig_0_2'
+                                }
     
     missing = required_cols - set(df.columns)
     
@@ -20,4 +20,4 @@ def feature_engineer(df):
     
     df['spreading_factor'] = 1 + np.square(df['norm_time'])
 
-    return df
+    return df.to_numpy()
